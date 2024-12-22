@@ -1,0 +1,85 @@
+.portfolio {
+    padding: 40px;
+    background-color: #f8f9fa;
+    margin: 0 auto;
+    max-width: 1200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .portfolio h2 {
+    font-size: 2.5rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .portfolio ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .portfolio li {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  /* Project hover effect */
+  .portfolio li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Project title */
+  .portfolio li h3 {
+    font-size: 1.8rem;
+    color: #007bff;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* Project description */
+  .portfolio li p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  /* Links inside each project */
+  .portfolio li a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .portfolio li a:hover {
+    color: #0056b3;
+  }
+  
+  /* Technology list */
+  .portfolio li strong {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Image or gif for the project demo */
+  .portfolio li img {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .portfolio li img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
